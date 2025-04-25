@@ -63,3 +63,7 @@ mvn clean install
 
 # Run the application
 mvn spring-boot:run
+
+## Contacts
+- telegram: @kaminur123
+- email: kaminurorinbek@gmail.com
