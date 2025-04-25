@@ -1,0 +1,21 @@
+# Application Name
+spring.application.name=University Management System
+
+# Database Configuration (PostgreSQL)
+spring.datasource.url=jdbc:postgresql://localhost:5432/ums_db
+spring.datasource.username=yourusername
+spring.datasource.password=yourpassword
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA/Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Flyway Database Migrations
+spring.flyway.enabled=true
+spring.flyway.locations=classpath:db/migration
+
+# JWT Configuration
+jwt.secret=yourjwtsecret
+jwt.expiration=yourjwtexpirationtime
